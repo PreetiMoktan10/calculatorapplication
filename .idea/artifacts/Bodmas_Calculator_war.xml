@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Bodmas-Calculator:war">
+    <output-path>$PROJECT_DIR$/Bodmas-Calculator-master/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Bodmas-Calculator</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Bodmas-Calculator.war">
+      <element id="artifact" artifact-name="Bodmas-Calculator:war exploded" />
+    </root>
+  </artifact>
+</component>
